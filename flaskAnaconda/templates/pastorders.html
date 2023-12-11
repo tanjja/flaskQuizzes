@@ -1,0 +1,28 @@
+{% include "header.html" %}
+    <h1>Past Orders</h1>
+
+    {% if pastorders %}
+        {% for order in pastorders %}
+        <table>
+        <tr><td>Order Date</td><td> {{ order["orderdate"] }} </td></tr>
+        <tr><td>Items:</td>
+            <td> <ul>
+            {% for product in order["details"] %}
+            <ul>
+            <li>Name: {{ product["name"] }}
+            <li>Quantity: {{ product["qty"] }}
+            <li>Subtotal: {{ product["subtotal"] }}
+            </ul>
+            <p/>
+            {% endfor %}
+            </ul>
+        </tr>
+        <tr><td colspan=2><b>Total</b></td><td><b>{{ order["details"]|sum(attribute="subtotal") }}</b></td></tr>
+        </table>
+        <p/>
+        {% endfor %}
+    {% else %}
+    <div>No orders have been made yet.</div>
+    {% endif %}
+
+{% include "footer.html" %}

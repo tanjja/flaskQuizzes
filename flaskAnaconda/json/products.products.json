@@ -1,0 +1,48 @@
+[{
+  "_id": {
+    "$oid": "6576dbfb6067a9cae36071c1"
+  },
+  "code": 100,
+  "name": "Americano",
+  "price": 150
+},
+{
+  "_id": {
+    "$oid": "6576dbfb6067a9cae36071c2"
+  },
+  "code": 200,
+  "name": "Brewed Coffee",
+  "price": 132
+},
+{
+  "_id": {
+    "$oid": "6576dc256067a9cae36071c3"
+  },
+  "code": 300,
+  "name": "Cappuccino",
+  "price": 144
+},
+{
+  "_id": {
+    "$oid": "6576dc256067a9cae36071c4"
+  },
+  "code": 400,
+  "name": "Espresso",
+  "price": 144
+},
+{
+  "_id": {
+    "$oid": "6576dc376067a9cae36071c5"
+  },
+  "code": 500,
+  "name": "Latte",
+  "price": 168
+},
+{
+  "_id": {
+    "$oid": "6576dc376067a9cae36071c6"
+  },
+  "code": 600,
+  "name": "Cold Brew",
+  "price": 240
+}]

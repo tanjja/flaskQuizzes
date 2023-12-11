@@ -1,0 +1,23 @@
+[{
+  "_id": {
+    "$oid": "6576eb3bb4907095169a8c74"
+  },
+  "username": "joben@example.com",
+  "orderdate": {
+    "$date": "2023-12-11T10:58:03.636Z"
+  },
+  "details": [
+    {
+      "code": "100",
+      "name": "Americano",
+      "qty": 1,
+      "subtotal": 150
+    },
+    {
+      "code": "400",
+      "name": "Espresso",
+      "qty": 1,
+      "subtotal": 144
+    }
+  ]
+}]
