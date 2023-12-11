@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "6576da9f6067a9cae36071b9"
+  },
+  "username": "chums@example.com",
+  "password": "newpassword",
+  "first_name": "Matthew",
+  "last_name": "Uy"
+},
+{
+  "_id": {
+    "$oid": "6576da9f6067a9cae36071ba"
+  },
+  "username": "joben@example.com",
+  "password": "Ch@ng3m3!",
+  "first_name": "Joben",
+  "last_name": "Ilagan"
+},
+{
+  "_id": {
+    "$oid": "6576dab56067a9cae36071bb"
+  },
+  "username": "bong@example.com",
+  "password": "Ch@ng3m3!",
+  "first_name": "Bong",
+  "last_name": "Olpoc"
+},
+{
+  "_id": {
+    "$oid": "6576dab56067a9cae36071bc"
+  },
+  "username": "joaqs@example.com",
+  "password": "Ch@ng3m3!",
+  "first_name": "Joaqs",
+  "last_name": "Gonzales"
+},
+{
+  "_id": {
+    "$oid": "6576dabb6067a9cae36071bd"
+  },
+  "username": "joe@example.com",
+  "password": "Ch@ng3m3!",
+  "first_name": "Joe",
+  "last_name": "Ilagan"
+},
+{
+  "_id": {
+    "$oid": "6576dabb6067a9cae36071be"
+  },
+  "username": "eb@example.com",
+  "password": "Ch@ng3m3!",
+  "first_name": "EB",
+  "last_name": "Ilagan"
+},
+{
+  "_id": {
+    "$oid": "6576dae76067a9cae36071bf"
+  },
+  "username": "gihoe@example.com",
+  "password": "Ch@ng3m3!",
+  "first_name": "Gio",
+  "last_name": "Hernandez"
+},
+{
+  "_id": {
+    "$oid": "6576dae76067a9cae36071c0"
+  },
+  "username": "vic@example.com",
+  "password": "Ch@ng3m3!",
+  "first_name": "Vic",
+  "last_name": "Reventar"
+}]
